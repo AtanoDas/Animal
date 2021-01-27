@@ -1,0 +1,523 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+/*Global Css all are Here*/
+
+/*Font Imfort link here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*Font style css*/
+
+/*
+
+font-family: 'Poppins', sans-serif;
+
+*/
+h1,h2,h3,h4,h5,h6,p,span,input{
+	font-family: 'Poppins', sans-serif;
+
+}
+header{
+	position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.4)
+}
+.nav-item a{
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	color: white !important;
+	margin: 0px 20px;
+
+}
+
+
+/*Banner Section Css Start From here*/
+.banner{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #fcc302;
+}
+.banner-desc{
+	margin: 0px 175px 0px 20px;
+
+}
+.banner-desc h1{
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	margin-top: 100px;
+
+
+}
+.banner-desc p{
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	margin: 15px 0px 30px 0px;
+
+	
+	
+}
+.button-group .btn-primary{
+	color: #fff;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+
+}
+/*Services-1 section Css start from here*/
+
+.services-1{
+	width: 100%;
+	padding: 80px 0;
+}
+.services-1 .video-desc{
+
+}
+.services-1 .video-desc h2{
+	font-size: 60px;
+	font-weight: 600;
+	margin-top: 100px;
+
+}
+.services-1 .video-desc p{
+	font-size: 30px;
+    font-weight: 400;
+    margin: 15px 118px 30px 0px;
+
+}
+.services-1 .video-desc button{
+
+}
+.services-1 .video{
+	position: relative;
+
+}
+.services-1 .video img{
+
+}
+.shadow{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    left: 0px;
+    background: rgba(252,195,2,0.6);
+}
+.box{
+
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    height: 200px;
+    width: 200px;
+    background: #fcc302;
+    z-index: -1;
+
+}
+.care-section{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+    background: #fcc302;
+
+}
+.care-section .care-title{
+
+}
+.care-section .care-title h2{
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+	
+}
+.care-section .care-title p{
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+	margin: 0px 365px;
+	margin-bottom: 30px;
+}
+.care-section .care-1{
+	margin: 40px 0;
+}
+.care-section .care-1 img{
+
+}
+.care-section .care-1 h6{
+	font-size: 40px;
+	font-weight: 400;
+	color: white;
+	margin: 20px 0;
+	
+}
+.care-section .care-1 p{
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	margin: 10px 72px;
+	
+}
+
+/*Sevices-2 section css start from here*/
+.services-2{
+	width: 100%;
+	padding: 120px 0;
+}
+.services-2 .video-2{
+	position: relative;
+}
+
+.services-2 .video-desc-2{
+	text-align: right;
+
+}
+.services-2 .video-desc-2 h2{
+	font-size: 60px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+.services-2 .video-desc-2 p{
+	font-size: 30px;
+    font-weight: 400;
+    margin: 15px 0px 30px 130px;
+
+}
+
+.box-2{
+	position: absolute;
+   	bottom: -30px;
+    right: -10px;
+    height: 200px;
+    width: 200px;
+    background: #fcc302;
+    z-index: -1;
+
+}
+
+/*Buying Section Css start from here*/
+
+.buying{
+	width: 100%;
+	padding: 120px 0;
+	background: #fcc302;
+	text-align: center;
+
+}
+.buying .buy-title{
+
+}
+.buying .buy-title h2{
+	font-size: 50px;
+	font-weight: 600;
+	color: white;
+}
+.buying .buy-title p{
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+	margin: 0px 365px;
+	margin-bottom: 30px;
+	
+}
+.buying .buy-price{
+	margin: 20px 0;
+}
+.buying .buy-price span{
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+.buying .buy-price p{
+	display: inline;
+	margin-left: 12px;
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+.buying .buy button{
+	width: 140px;
+    height: 40px;
+	border-radius: 15px;
+    background: #00bec9;
+    border-color: #00bec9;
+}
+
+/*Doctor Section Css Start here*/
+.doctor{
+	width: 100%;
+	padding: 120px 0;
+	text-align: center;
+
+}
+.doc-title h2{
+	font-size: 50px;
+	font-weight: 600;
+
+}
+.doc-title p{
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0px 365px;
+	margin-bottom: 30px;
+
+}
+.doc{
+	margin: 40px 0;
+}
+.doc h6{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 10px 0;
+
+}
+.doc p{
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px 0;
+
+
+}
+.doc .social-icon{
+	text-align: center;
+    margin-right: 26px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.doc .social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.doc .social-icon ul li a i{
+	margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    background: #fcc302;
+    color: white;
+    line-height: 40px;
+    border-radius: 50%;
+
+}
+.doc .social-icon ul li a i:hover{
+	background: transparent;
+	border: 1px solid #fcc302;
+	color: #fcc302;
+}
+/*Counter Section Css start from here*/
+
+.counter{
+	width: 100%;
+	height: 80vh;
+	background-image: url('../img/img-4.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.counter .shadow{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background: rgba(252,195,2,0.4);
+
+}
+.c-sec{
+	text-align: center;
+	padding: 190px 0px;
+
+}
+.counter-sec h6{
+	font-size: 30px;
+	font-weight: 700;
+	margin: 10px 0;
+	color: white;
+
+}
+
+/*Recent Section Css Start From here*/
+.recent{
+	width: 100%;
+	padding: 120px 0;
+	text-align: center;
+
+}
+.recent-title h2{
+	font-size: 50px;
+	font-weight: 600;
+
+}
+.recent-title p{
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0px 365px;
+	margin-bottom: 30px;
+
+}
+.recent-pic{
+	margin: 0px 27px;
+
+}
+.recent-pic .pic-desc{
+	text-align: left;
+ 
+    padding: 30px 30px 50px 30px;
+    border: 2px solid #d6d6d6;
+    border-top: none;
+}
+
+}
+.recent-pic .pic-desc h3{
+	font-size: 25px;
+	font-weight: 600;
+}
+.recent-pic .pic-desc h6{
+	font-size: 10px;
+	font-weight: 400;
+	color: #00bec9;
+	
+}
+.recent-pic .pic-desc p{
+	font-size: 18px;
+	font-weight: 500;
+	
+}
+.recent-pic .pic-desc h4{
+	font-size: 20px;
+	font-weight: 800;
+	color: #00bec9;
+	
+}
+.recent-pic:hover .pic-desc{
+	border: none;
+
+	
+
+}
+.recent-pic:hover{
+	box-shadow: 0px -2px 30px 0px rgba(231,231,231,1);
+    margin: 0px 27px;
+
+}
+
+
+/*Foooter Section Css Start From here*/
+
+footer{
+	width: 100%;
+	background: #343434;
+	margin: 40px 0 0 0;
+}
+.footer-menu{
+	padding: 70px;
+}
+.footer-menu h2{
+
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	padding-left: 32px;
+	margin-bottom: 15px;
+}
+.footer-menu ul li{
+	list-style: none;
+	margin: 6px 0;
+
+}
+.footer-menu ul li a{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.contact{
+	text-align: right;
+	margin: 80px 0;
+}
+.contact-title h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+
+}
+.contact-title p{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+    margin-bottom: 30px;
+
+}
+.contact .message{
+	width: 260px;
+    height: 40px;
+    background: #daac00;
+    border: none;
+
+}
+.contact .message{
+	width: 260px;
+    height: 40px;
+    background: #daac00;
+    border: none;
+
+}
+
+.contact .icon{
+
+}
+.contact .input-group{
+	width: 60%;
+	height: 60px;
+	text-align: right;
+	margin-left: 255px;
+	border: none;
+}
+.contact .message{
+	width: 60%;
+    height: 60px;
+    border-radius: unset;
+    background: #daac00;
+
+}
+.contact .btn{
+	position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 60px;
+    border-radius: unset;
+    border: none;
+    background: #00bec9;
+    color: white;
+    font-size: 25px;
+}
+
+footer .social-icon{
+	text-align: right;
+	margin-top: -50px;
+
+}
+
+footer .social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 12px;
+	
+}
+footer .social-icon ul li a i{
+	width: 30px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+
+}
